@@ -7,9 +7,6 @@
         <p>
             With every new major minecraft update ZorbSMP starts a new phase. A fresh slate for new factions to form. Be passive, be hostile, it's up to you as long as it's not griefing.
         </p>
-        <p>
-            And ffs, listen to the admins. They're just trying to make it fun for everyone.
-        </p>
     </div>
 </template>
 
