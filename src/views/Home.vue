@@ -2,10 +2,19 @@
     <div class="content">
         <h4 class="text_shadows">Launching Sunday, 12.06.2022, at 6 PM GMT</h4>
         <p>
-            ZorbSMP is a minecraft experience centered around blood, sweat, and piss. Shit is built through effort, fun is had, little limits on what goes. Just have fun and don't be a dick!
+            ZorbSMP is a minecraft experience centered around blood, sweat, and piss.
         </p>
         <p>
-            With every new major minecraft update ZorbSMP starts a new phase. A fresh slate for new factions to form. Be passive, be hostile, it's up to you as long as it's not griefing.
+            Every time Mojang releases a major update to Minecraft, a new Phase of ZorbSMP begins with a fresh slate. <br/>
+            New factions are forming, players decide to group up or go solo to achieve their phase goals. <br/>
+            After about a month or two, the server shuts down. <br/>
+            Everything other than your memories of this is bound to be temporary! <br/>
+        </p>
+        <p>
+            ZorbSMP runs survival, as the name states. Shit is built through effort, fun is had, little limits on what goes. Just have fun and don't be a dick!
+        </p>
+        <p>
+            To join the fun all you need to do is join the discord (link is below), and add your name to the whitelist channel. An admin will hopefully approve your request at their earliest convenience. After that you can join the minecraft server at the address mc.zorb.gay.
         </p>
     </div>
 </template>
@@ -19,7 +28,8 @@
 <style scoped>
 
 p {
-    margin: 1em 0 0 0;
+  font-size: 1.5em;
+  margin: 1em 0 0 0;
 }
 
 *,
@@ -51,7 +61,7 @@ p {
   text-transform: uppercase;
   font-size: 2rem;
   text-align: center;
-  margin: 0;
+  margin: 0 0 2em 0;
   color: #111111;
   animation: shadows 1.2s ease-in infinite, move 1.2s ease-in infinite;
   letter-spacing: 0.4rem;
