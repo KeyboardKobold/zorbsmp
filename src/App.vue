@@ -4,17 +4,20 @@
     <div id="content">
       <router-view></router-view>
     </div>
+    <Footer id="footer"/>
   </div>
 </template>
 
 <script>
 import Banner from "@/components/Banner";
+import Footer from "./components/Footer.vue";
 
 export default {
   name: 'App',
   components: {
     Banner,
-  }
+    Footer
+}
 }
 </script>
 
@@ -24,8 +27,6 @@ export default {
   font-family: "Comic Sans MS", "Comic Sans";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /*background-color: #1A1A1A;
-  color: #fff;*/
   background-color: #E7E9EB;
   min-height: 100vh;
   padding: 0 0 5em 0;
@@ -35,18 +36,18 @@ export default {
   margin: 0 20% 0 20%;
   padding: 5% 7%;
   background-color: #FFF;
-  /*background-color: #272727;*/
 }
 
 #banner {
   background-color: #000;
 }
 
-hr {
-  height: 1px;
-  width: 80%;
-  color: #747474;
-  background-color: #747474;
+#footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #343a40;
 }
 
 @media screen and (max-width: 720px) {
