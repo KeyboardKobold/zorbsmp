@@ -10,7 +10,6 @@ import SiteNotFound from './views/SiteNotFound.vue'
 Vue.use(Router)
 
 export default  new Router( {
-    mode: 'history',
     routes: [
         {
             path: '/',
@@ -33,7 +32,7 @@ export default  new Router( {
             component: Raccoon
         },
         {
-            path: '/About Zorb',
+            path: '/zorb',
             name: 'Shit about Zorb',
             component: Zorb
         },
