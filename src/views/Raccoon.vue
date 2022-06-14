@@ -34,7 +34,7 @@
 
 <style scoped>
 .content {
-    margin: 8em;
+    margin: 8em 0;
 }
 
 .image {
