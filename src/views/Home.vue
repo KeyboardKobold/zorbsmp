@@ -47,6 +47,8 @@ p {
 }
 
 .content {
+  margin: 0 20% 0 20%;
+  padding: 5% 7%;
   display: flex;
   align-content: center;
   justify-content: center;

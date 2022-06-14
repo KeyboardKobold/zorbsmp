@@ -27,15 +27,9 @@ export default {
   font-family: "Comic Sans MS", "Comic Sans";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #E7E9EB;
   min-height: 100vh;
-  padding: 0 0 5em 0;
-}
-
-#content {
-  margin: 0 20% 0 20%;
-  padding: 5% 7%;
-  background-color: #FFF;
+  /*padding: 0 0 5em 0;
+  background-color: #E7E9EB;*/
 }
 
 #banner {
