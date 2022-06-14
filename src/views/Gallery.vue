@@ -21,7 +21,7 @@
         },
 
         mounted() {
-            this.importAll(require.context('../assets/gallery/5/', true, /\.jpg$/));
+            this.importAll(require.context('../assets/gallery/5/', true, /\.png$/));
         },
 
         methods: {
@@ -35,7 +35,7 @@
 <style scoped>
 
 .content {
-    margin: 8;
+    margin: 0 0 8em 0;
 }
 
 .image {
