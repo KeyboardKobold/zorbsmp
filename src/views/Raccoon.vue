@@ -1,6 +1,6 @@
 <template>
     <div class="content d-flex d-row align-items-center">
-        <div class="container text-center">
+        <div class="content-wrapper text-center">
             <img class="image" :src="randomImage()">
         </div>
     </div>
@@ -37,7 +37,12 @@
     margin: 8em 0;
 }
 
+.content-wrapper {
+    width: 100%
+}
+
 .image {
+    max-width: 70%;
     border-radius: 200px;
 }
 
