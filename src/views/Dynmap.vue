@@ -1,6 +1,6 @@
 <template>
     <div class="content">
-         <iframe src="http://51.89.168.119:8123/" title="DynMap iFrame"></iframe> 
+         <iframe src="https://dynmap.zorb.gay/" title="DynMap iFrame"></iframe> 
     </div>
 </template>
 
