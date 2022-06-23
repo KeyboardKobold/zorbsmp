@@ -36,6 +36,7 @@
 
 .content {
     margin: 0 0 8em 0;
+    width: 100%;
 }
 
 .image {
