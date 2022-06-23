@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import Home from './views/Home.vue'
 import Phase5 from './views/Phase5.vue'
 import Gallery from './views/Gallery.vue'
+import Dynmap from './views/Dynmap.vue'
 import Raccoon from './views/Raccoon.vue'
 import Zorb from './views/Zorb.vue'
 import SiteNotFound from './views/SiteNotFound.vue'
@@ -25,6 +26,11 @@ export default  new Router( {
             path: '/gallery:phase',
             name: 'Gallery',
             component: Gallery
+        },
+        {
+            path: '/dynmap',
+            name: 'DynMap',
+            component: Dynmap
         },
         {
             path: '/raccoon',

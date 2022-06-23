@@ -24,6 +24,7 @@
             <b-nav-item :to="{ name: 'Shit about ZorbSMP'}">Shit about ZorbSMP</b-nav-item>
             <b-nav-item :to="{ name: 'Shit about Phase 5'}">Shit about Phase 5</b-nav-item>
             <b-nav-item :to="{ name: 'Gallery', params: { phase: '5' }}">Gallery Phase 5</b-nav-item>
+            <b-nav-item :to="{ name: 'DynMap'}">DynMap</b-nav-item>
             <b-nav-item :to="{ name: 'Raccoon'}">Raccoon</b-nav-item>
             <b-nav-item :to="{ name: 'Shit about Zorb'}">Shit about Zorb</b-nav-item>
         </b-navbar-nav>
