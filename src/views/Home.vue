@@ -134,4 +134,10 @@ p {
   }
 }
 
+@media screen and (max-width: 1080px) {
+    .content {
+      margin: 5% 5% 10% 5%;
+    }
+}
+
 </style>

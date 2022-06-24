@@ -53,4 +53,11 @@
   opacity: 0.3;
 }
 
+@media screen and (max-width: 1080px) {
+    .image {
+        margin: 5%;
+        width: 90%;
+    }
+}
+
 </style>
