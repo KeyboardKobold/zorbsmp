@@ -2,6 +2,11 @@
   "name": "zorbsmp",
   "version": "1.2.0",
   "private": true,
+  "scriptsComments": {
+    "start": "You need to set NODE_OPTIONS=--openssl-legacy-provider before execution now...",
+    "ps": "$env:NODE_OPTIONS=\"--openssl-legacy-provider\"",
+    "sh": "export NODE_OPTIONS=--openssl-legacy-provider"
+  },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -15,14 +20,14 @@
     "vue-router": "^3.5.2"
   },
   "devDependencies": {
-    "@babel/core": "^7.12.16",
+    "@babel/core": "^7.21.0",
     "@babel/eslint-parser": "^7.12.16",
     "@vue/cli-plugin-babel": "~5.0.8",
     "@vue/cli-plugin-eslint": "~5.0.8",
     "@vue/cli-service": "~5.0.8",
     "babel-eslint": "^10.1.0",
-    "eslint": "^7.32.0",
-    "eslint-plugin-vue": "^8.0.3",
+    "eslint": "^8.34.0",
+    "eslint-plugin-vue": "^9.9.0",
     "vue-template-compiler": "^2.6.14"
   },
   "eslintConfig": {

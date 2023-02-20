@@ -4,19 +4,19 @@
     <div id="content">
       <router-view></router-view>
     </div>
-    <Footer id="footer"/>
+    <ZorbFooter id="footer"/>
   </div>
 </template>
 
 <script>
 import Banner from "@/components/Banner";
-import Footer from "./components/Footer.vue";
+import ZorbFooter from "./components/Footer.vue";
 
 export default {
   name: 'App',
   components: {
     Banner,
-    Footer
+    ZorbFooter
 }
 }
 </script>

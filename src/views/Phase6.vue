@@ -65,6 +65,14 @@ p {
   font-size: 1.5em;
   margin: 1em 0 0 0;
 }
+h4 {
+  margin-top: 1.5em;
+  font-size: 3em;
+  background: -webkit-linear-gradient(109.6deg, rgb(255, 207, 84) 11.2%, rgb(255, 158, 27) 91.1%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
 .content {
   margin: 0 20% 0 20%;
