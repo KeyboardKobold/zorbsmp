@@ -1,7 +1,6 @@
 <template>
     <div class="content">
-        <h4 class="text_shadows">ZorbSMP Phase 5 is live right now!</h4>
-        <h4 class="text_shadows">Skyblock is live right now!</h4>
+        <h4 class="text_shadows">ZorbSMP Phase 6 is coming on Sunday the 26th of Feb!</h4>
         <p>
             ZorbSMP is a minecraft experience centered around blood, sweat, and piss.
         </p>
