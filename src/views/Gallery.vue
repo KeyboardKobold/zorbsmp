@@ -3,13 +3,11 @@
         <div class="phaseSelect">
             <b-form-select v-model="selected" :options="options" size="lg" @input="changePhase"></b-form-select>
         </div>
-        <img class="image" v-for="(image, i) in curImages" :src="image.url" :key="i" @click="index = i">
+        <div class="imageGrid">
+            <img class="image" v-for="(image, i) in curImages" :src="image.url" :key="i" @click="index = i">
+        </div>
         <vue-gallery-slideshow :images="curImages" :index="index" @close="index = null"></vue-gallery-slideshow>
     </div>
-    <!--
-        Next steps: Define images array per phase, 
-        disable or enable images per phase... Not efficient, but might work
-    -->
 </template>
 
 <script>
@@ -76,6 +74,12 @@
     padding: 0 2em;
 }
 
+.imageGrid {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
 
 .image {
     height: auto; 
