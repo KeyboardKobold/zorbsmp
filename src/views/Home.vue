@@ -1,18 +1,23 @@
 <template>
     <div class="content">
         <h4 class="text_shadows">ZorbSMP Phase 6 is coming on Sunday the 26th of Feb!</h4>
+        
+        <h4>About</h4>
         <p>
             ZorbSMP is a minecraft experience centered around blood, sweat, and piss.
         </p>
+        <h4>When</h4>
         <p>
             Every time Mojang releases a major update to Minecraft, a new Phase of ZorbSMP begins with a fresh slate. <br/>
             New factions are forming, players decide to group up or go solo to achieve their phase goals. <br/>
             After about a month or two, the server shuts down. <br/>
             Everything other than your memories of this is bound to be temporary! <br/>
         </p>
+        <h4>What</h4>
         <p>
             ZorbSMP runs survival, as the name states. Shit is built through effort, fun is had, little limits on what goes. Just have fun and don't be a dick!
         </p>
+        <h4>How</h4>
         <p>
             To join the fun all you need to do is join the discord (link is below), and add your name to the whitelist channel. An admin will hopefully approve your request at their earliest convenience. After that you can join the minecraft server at the address mc.zorb.gay.
         </p>
@@ -30,6 +35,14 @@
 p {
   font-size: 1.5em;
   margin: 1em 0 0 0;
+}
+h4 {
+  margin-top: 1.5em;
+  font-size: 3em;
+  background: -webkit-linear-gradient(109.6deg, rgb(255, 207, 84) 11.2%, rgb(255, 158, 27) 91.1%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 *,
