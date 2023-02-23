@@ -4,7 +4,7 @@
             <div class="mask">
                 <div class="d-flex justify-content-center align-items-center h-100">
                     <div class="text-white">
-                        <h1 class="mb-3 title">ZorbSMP Phase 5</h1>
+                        <h1 class="mb-3 title">ZorbSMP Phase 6</h1>
                         <h4 class="mb-3 address">mc.zorb.gay</h4>
                     </div>
                 </div>
