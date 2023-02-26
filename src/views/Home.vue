@@ -1,8 +1,8 @@
 <template>
     <div class="content">
-        <h4 class="text_shadows">ZorbSMP Phase 6 is coming on Sunday the 26th of Feb!</h4>
+        <h4 class="text_shadows">ZorbSMP Phase 6 is live now!!!</h4>
         
-        <h4 class="text_shadows">Live in {{ days }} days {{ hours }} hours and {{ minutes }} minutes!</h4>
+        <h4 class="text_shadows">Live for {{ days }} days {{ hours }} hours and {{ minutes }} minutes!</h4>
 
         <h4>About</h4>
         <p>
@@ -32,7 +32,7 @@
         data() {
           return {
             timerDate: Date.now(),
-            targetDate: 1677438000000,
+            targetDate: 1677434400000,
             days: 0,
             hours: 0,
             minutes: 0,
@@ -43,9 +43,9 @@
             timerDate: {
                 handler(value) {
 
-                    if (value > 0) {
+                    if (value != 0) {
                         setTimeout(() => {
-                            this.timerDate = this.targetDate - Date.now();
+                            this.timerDate = Date.now() - this.targetDate;
                             this.days = Math.floor(this.timerDate / 1000 / 60 / 60 / 24);
                             this.hours = Math.floor((this.timerDate / 1000 / 60 / 60) - (this.days * 24));
                             this.minutes = Math.floor((this.timerDate / 1000 / 60) - (this.hours * 60));
