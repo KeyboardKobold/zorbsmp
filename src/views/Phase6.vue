@@ -16,7 +16,16 @@
                 <li>Install the modpack referenced above.</li>
                 <li>Join the server via the address mc.zorb.gay!</li>
             </ul>
+            Watch the video below for a step by step guide!
         </p>
+        <div>
+                <b-embed
+                    type="iframe"
+                    aspect="16by9"
+                    src="https://www.youtube.com/embed/Dhh06d5b3Fw"
+                    allowfullscreen
+                ></b-embed>
+            </div>
         <h4>ZorbSMP Java Server Rules</h4>
         <p>
             <ul>
