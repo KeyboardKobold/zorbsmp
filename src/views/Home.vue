@@ -48,7 +48,7 @@
                             this.timerDate = Date.now() - this.targetDate;
                             this.days = Math.floor(this.timerDate / 1000 / 60 / 60 / 24);
                             this.hours = Math.floor((this.timerDate / 1000 / 60 / 60) - (this.days * 24));
-                            this.minutes = Math.floor((this.timerDate / 1000 / 60) - (this.hours * 60));
+                            this.minutes = Math.floor((this.timerDate / 1000 / 60) - (this.hours * 60) - (this.days * 24 * 60));
                         }, 1000);
                     }
 
