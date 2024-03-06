@@ -12,6 +12,11 @@ npm run serve
 
 ### Compiles and minifies for production
 ```
+Will need to set for local testing:
+$env:NODE_OPTIONS="--openssl-legacy-provider"
+OR
+export NODE_OPTIONS=--openssl-legacy-provider
+
 npm run build
 ```
 
