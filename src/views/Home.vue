@@ -2,7 +2,9 @@
     <div class="content">
         <h4 class="text_shadows">ZorbSMP Phase 6 is live now!!!</h4>
         
-        <h4 class="text_shadows">Live for {{ days }} days {{ hours }} hours and {{ minutes }} minutes!</h4>
+        <!--h4 class="text_shadows">Live for {{ days }} days {{ hours }} hours and {{ minutes }} minutes!</h4-->
+        <h4 class="text_shadows">ZorbSMP is down!</h4>
+        <h4 class="text_shadows">This website will go down forever in November 2024</h4>
 
         <h4>About</h4>
         <p>
